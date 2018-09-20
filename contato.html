@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Faculdade Impacta de Tecnologia</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+		<header>
+			<img src="imagens/logo.jpg" alt="LOGO DA IMPACTA" />
+			<h1>Faculdade Impacta de Tecnologia</h1>
+			<h2>A TECNOLOGIA MUDA O SEU FUTURO</h2>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li><a href="cursos/ads.html">Curso ADS</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1>Entre em Contato</h1>
+			<form method="POST" action="obrigado.html" >
+				<p>
+					<label for="contato-email" >E-mail</label>
+					<input id="contato-email" name="email" type="email" required />
+				</p>
+				<p>
+					<label for="contato-nome" >Nome</label>
+					<input id="contato-nome" name="nome" type="text" required />
+				</p>
+				<p>
+					Sexo:<br/>
+					<label for="contato-sexo-m">Masculino</label>
+					<input id="contato-sexo-m" name="sexo" type="radio" value="M" required /><br/>
+					<label for="contato-sexo-f">Feminino</label>
+					<input id="contato-sexo-f" name="sexo" type="radio" value="F" required /><br/>
+					<label for="contato-sexo-e">Estudante</label>
+					<input id="contato-sexo-e" name="sexo" type="radio" value="E" required />
+				</p>
+				<p>
+					<label for="contato-assunto" >Assunto</label>
+					<select id="contato-assunto" name="assunto" required>
+						<option></option>
+						<option>Bug</option>
+						<option>Reclamações</option>
+						<option>Xingamentos</option>
+						<option>Bullyng</option>
+					</select>
+				</p>
+				<p>
+					<label for="contato-mensagem" >Mensagem</label>
+					<textarea id="contato-mensagem" name="mensagem" required></textarea>
+				</p>
+				<p>
+					Palavras Chave:<br/>
+					<label for="contato-chave-tw">TecWeb</label>
+					<input id="contato-chave-tw" name="chave" type="checkbox" value="TW" required /><br/>
+					<label for="contato-chave-lp">LPII</label>
+					<input id="contato-chave-lp" name="chave" type="checkbox" value="LPII" required /><br/>
+					<label for="contato-chave-es">EngSoftware</label>
+					<input id="contato-chave-es" name="chave" type="checkbox" value="ES" required />
+				</p>
+				<p>
+					Senha: <input type="password" name="senha" />
+				</p>
+				<p>
+					<button type="submit">
+						Mandar Mensagem
+					</button>
+				</p>
+			</form>
+		</main>
+		<footer>
+			<hr/>
+			<p>
+				11 3254-8300 - Impacta 2018 - Todos os direitos reservados.
+			</p>
+		</footer>
+	</body>
+</html>
